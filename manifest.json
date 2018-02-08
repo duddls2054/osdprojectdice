@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "dice",
+  "version": "1.0",
+
+  "description": "dice game",
+
+  "icons": {
+    "48": "icon/dice.png"
+  },
+
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon/dice.png",
+    "theme_icons": [{
+        "light": "icon/dice.png",
+        "dark": "icon/dice.png",
+        "size": 32
+    }],
+    "default_title": "Dice",
+    "default_popup": "dice.html"
+  },
+
+  "web_accessible_resources": [
+    "dice/icon/dice.png"
+    ]
+}
